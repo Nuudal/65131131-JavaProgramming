@@ -20,6 +20,6 @@ public class ChuviDT {
 		System.out.println("Chu vi: " + cv);
 		System.out.println("Dien tich: " + dt);
 		System.out.println("Canh nho: " +  min);
-	
+		scanner.close();
 	}
 }
