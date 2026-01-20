@@ -14,7 +14,6 @@ public class DTB {
         }
         while (b<0 || b>10);
         
-
         System.out.println("Ho va ten: " + a);
         System.out.println("Diem trung binh: " + b);
 
