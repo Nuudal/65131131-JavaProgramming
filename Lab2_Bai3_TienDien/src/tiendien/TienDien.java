@@ -9,9 +9,10 @@ public class TienDien {
         int soDien = scanner.nextInt();
         
         int tien;
-        if (soDien <= 50) {
+        if(soDien <= 50){
             tien = soDien * 1000;
-        } else {
+        }
+        else{
             tien = 50 * 1000 + (soDien - 50) * 1200;
         }
         System.out.printf("Tien dien phai tra: %,d VND",tien);
