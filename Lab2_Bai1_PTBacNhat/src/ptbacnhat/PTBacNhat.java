@@ -17,10 +17,9 @@ public class PTBacNhat {
 				System.out.println("Vo nghiem");
 		else {
 			double x = (-b)/a;
-			if(b==0)
-				System.out.printf("Ket qua: %.2f",-x);
-			else	
-				System.out.printf("Ket qua: %.2f",x);
+			if(x==-0)
+				x=0;	
+			System.out.printf("Ket qua: %.2f",x);
 		}
 			
 		
