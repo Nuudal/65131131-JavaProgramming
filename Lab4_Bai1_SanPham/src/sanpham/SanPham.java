@@ -7,15 +7,17 @@ public class SanPham {
     double giamGia;
 
     public void nhap() {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập tên sản phẩm: ");
-        tenSp = sc.nextLine();
+        tenSp = scanner.nextLine();
 
         System.out.print("Nhập đơn giá: ");
-        donGia = sc.nextDouble();
+        donGia = scanner.nextDouble();
 
         System.out.print("Nhập giảm giá: ");
-        giamGia = sc.nextDouble();
+        giamGia = scanner.nextDouble();
+        
+        scanner.close();
     }
 
     public double getThueNhapKhau() {
