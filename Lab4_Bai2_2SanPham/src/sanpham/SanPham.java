@@ -39,7 +39,7 @@ public class SanPham {
         sp2.nhap();
         System.out.println("\nThông tin sản phẩm 1:");
         sp1.xuat();
-        System.out.println("\nThông tin sản phẩm 1:");
+        System.out.println("\nThông tin sản phẩm 2:");
         sp2.xuat();
     }
 }
