@@ -16,8 +16,6 @@ public class SanPham {
 
         System.out.print("Nhập giảm giá: ");
         giamGia = scanner.nextDouble();
-        
-        scanner.close();
     }
 
     public double getThueNhapKhau() {
