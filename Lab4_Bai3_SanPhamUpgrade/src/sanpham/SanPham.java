@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class SanPham {
 	
-	private String tenSp;
-	private double donGia;
-	private double giamGia;
+	String tenSp;
+	double donGia;
+	double giamGia;
 	
 	public SanPham(String tenSp, double donGia, double giamGia) {
 		this.tenSp=tenSp;
